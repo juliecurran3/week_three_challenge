@@ -1,10 +1,15 @@
 package weekThreeCodingAssignment;
 
-public class weekThree {
-
+public class weekThree1 {
+ 
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
-     int[] studentAges = new int[10];
+    /**
+     * # 1
+     * finds the difference between the first and last student age 
+     * and average of all ages
+     * @ results difference and average
+     */
+     int[] studentAges = new int[9];
      
      studentAges[0] = 3;
      studentAges[1] = 9;
@@ -15,7 +20,6 @@ public class weekThree {
      studentAges[6] = 28;
      studentAges[7] = 93;
      studentAges[8] = 2;
-     studentAges[9] = 100;
      
      System.out.println(studentAges[0] - studentAges[studentAges.length - 1]); 
      int total = 0;
